@@ -21,7 +21,7 @@ func init() {
 
 func main() {
 	router := newRouter("SendMail", "POST", "/api/v0/email", SendMail)
-	log.Fatal(http.ListenAndServe(":8081", router))
+	log.Fatal(http.ListenAndServe(":8080", router))
 }
 
 func newRouter(name string, method string, path string, handlerFunc http.HandlerFunc) (router *mux.Router) {

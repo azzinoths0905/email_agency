@@ -3,3 +3,4 @@ configs/config.yaml
 Gopkg.lock
 package.json
 package-lock.json
+vendor
